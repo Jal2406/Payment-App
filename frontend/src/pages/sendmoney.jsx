@@ -12,6 +12,7 @@ const Sendmoney = () => {
     const fname = searchParams.get("fname")
     const lname = searchParams.get("lname")
     const [amount, setAmount] = useState(0);
+    
     return(
         <div className="h-screen flex justify-center">
             <div className="flex flex-col justify-center">
